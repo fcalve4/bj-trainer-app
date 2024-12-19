@@ -2,7 +2,6 @@ import random
 from deck import Deck
 
 class Shoe():
-
     def __init__(self, num_decks):
         self.cards = self.create_shoe(num_decks=num_decks)
 
