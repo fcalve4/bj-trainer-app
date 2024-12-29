@@ -1,4 +1,3 @@
-import random
 from shoe import Shoe
 
 class BlackjackTrainer:

@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BlackjackApp</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  <link rel="stylesheet" href="../static/styles.css">
 </head>
 
 <div class="top-navigation-bar">
@@ -18,7 +18,14 @@
 </div>
 
 <body>
-
+  <div class="game-container">
+    <h1>Blackjack Game</h1>
+    <div class="cards">
+      {% if game_state == "initial" %}
+        <img src="{{ url_for('static', filename='images/back_dark.png') }}" alt="back_dark" class="card">
+    {% endif %}
+    </div>
+  </div>
 </body>
 
 </html>

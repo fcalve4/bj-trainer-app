@@ -36,3 +36,10 @@ body {
     background-color: #04AA6D;
     color: white;
 }
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    scale: 0.4;
+}

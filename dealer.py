@@ -1,8 +1,5 @@
-class Player():
-
-    def __init__(self, bankroll=0, wager=0, hands=[]):
-        self.bankroll = bankroll
-        self.wager = wager
+class Dealer():
+    def __init__(self, hands=[]):
         self.hands = hands
 
     
